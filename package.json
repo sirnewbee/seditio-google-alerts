@@ -1,0 +1,35 @@
+{
+  "name": "google-alerts-api",
+  "version": "0.4.1",
+  "description": "Google Alerts API",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adasq/google-alerts-api.git"
+  },
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "author": "adasq",
+  "license": "ISC",
+  "dependencies": {
+    "nested-property": "0.0.7",
+    "request": "2.88.0",
+    "cheerio": "0.22.0"
+  },
+  "devDependencies": {
+    "expect.js": "0.3.1",
+    "mocha": "5.2.0",
+    "nconf": "0.8.4"
+  },
+  "bugs": {
+    "url": "https://github.com/adasq/google-alerts-api/issues"
+  },
+  "homepage": "https://github.com/adasq/google-alerts-api#readme",
+  "directories": {
+    "test": "tests"
+  }
+}
